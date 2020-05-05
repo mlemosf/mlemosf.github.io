@@ -1,0 +1,47 @@
+.icon {
+	margin-bottom: 50px;
+	border-radius: 50%;
+	position: relative;
+	left: 50%;
+	width: 10vh;
+	height: 10vh;
+}
+
+.imageFrame {
+	margin-top: 50px;
+	width: 20vh;
+	height: 20vh;
+	border-radius: 50%;
+	background-color: white;
+}
+
+.image {
+	border-radius: 50%;
+	width: 20vh;
+	height: 20vh;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	padding: 2vh;
+}
+
+.background {
+	background-image: url('../../images/background2.jpg');
+	opacity: .9;
+}
+
+.text {
+	font-family: monospace;
+}
+
+.col {
+	margin-bottom: 10px;
+}
+
+#title {
+	color: white;
+}
+
+a {
+	font-size: 150%;
+}

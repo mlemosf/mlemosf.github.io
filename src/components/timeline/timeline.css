@@ -1,0 +1,20 @@
+.card {
+	height: 50vh;
+	background-color: white;
+}
+
+.background {
+	background-image: url('../../images/background2.jpg');
+	opacity: .9;
+}
+
+.cardText {
+	color: #3f3f3f;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#cardTitle {
+	color: #3f3f3f;
+	margin-top: 40px;
+	font-size: 50px;
+}
