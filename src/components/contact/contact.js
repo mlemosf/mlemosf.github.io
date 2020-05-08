@@ -6,14 +6,14 @@ import styles from './contact.css';
 
 const Contact = () => {
 	return(
-		<div className='page-footer' style={{ 'margin-top': '10px'}}>
+		<div className='page-footer' style={{ 'margin-top': '10vh'}}>
 			<div className='container'>
 				<div className='row'>
-					<div className='col 16 s12 m6' style={{ float: 'left'}}>
+					<div className='col s12'>
 						<h2 className='text' id='title'>Contato</h2>
 						<p><a class='grey-text' href="#!">Envie-me um email</a></p>
 					</div>
-					<div className='col 14 offset-s12 m7'>
+					<div className='col s12'>
 						<h5 className='text' id='title'>Links</h5>
 						<ul>
 							<li><a class="grey-text" href="#!">Sobre</a></li>

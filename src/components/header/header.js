@@ -8,7 +8,7 @@ const Header = () => (
 	<div className="background">
 		<div className="container" style={{justifyContent: 'center', alignItems: 'center'}}>
 			<div className="row">
-				<div className="col s6 offset-s5">
+				<div className="col s6 m6 offset-s4 offset-m5">
 					<div className="imageFrame">
 						<img className="image" src={profile} alt=""/>
 					</div>
@@ -21,32 +21,20 @@ const Header = () => (
 				</div>
 			</div>
 			<div className="row">
-				<div className="col s4">
-					<div className='icon'></div>
+				<div className="col s3 m3">
+					<a href="/sobre" className="text" id="title">sobre</a>
 				</div>
-				<div className="col s4">
-					<div className='icon'></div>
+				<div className="col s3 m3">	
+					<a href="/experience" className="text" id="title">experiência</a>
 				</div>
-				<div className="col s4">
-					<div className='icon'></div>
+				<div className="col s3 m3">
+					<a href="/projetos" className="text" id="title">projetos</a>
 				</div>
-			</div>
-			<div className="row">
-				<div className="col s3">
-					<a href="/sobre" className="icon text" id="title">sobre</a>
-				</div>
-				<div className="col s3">	
-					<a href="/experience" className="icon text" id="title">experiência</a>
-				</div>
-				<div className="col s3">
-					<a href="/projetos" className="icon text" id="title">projetos</a>
-				</div>
-				<div className="col s3">
-					<a href="/contato" className="icon text" id="title">contato</a>
+				<div className="col s3 m3">
+					<a href="/contato" className="text" id="title">contato</a>
 				</div>
 
 			</div>
-
 		</div>
 	</div>
 );

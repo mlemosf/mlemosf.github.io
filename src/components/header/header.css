@@ -7,7 +7,7 @@
 }
 
 .imageFrame {
-	margin-top: 50px;
+	margin-top: 10vh;
 	width: 20vh;
 	height: 20vh;
 	border-radius: 50%;
@@ -32,16 +32,18 @@
 
 .text {
 	font-family: monospace;
+	position: relative;
 }
 
 .col {
-	margin-bottom: 10px;
+	margin-bottom: 5vh;
+}
+
+.row {
+	margin: 0
 }
 
 #title {
 	color: white;
 }
 
-a {
-	font-size: 150%;
-}

@@ -1,6 +1,6 @@
 .card {
 	margin: 0;
-	height: 50vh;
+	height: auto;
 	background-color: white;
 }
 
@@ -16,6 +16,6 @@
 
 #cardTitle {
 	color: #3f3f3f;
-	margin-top: 40px;
-	font-size: 50px;
+	margin-top: 4vh;
+	font-size: 300%;
 }

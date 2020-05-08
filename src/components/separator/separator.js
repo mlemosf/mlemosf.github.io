@@ -8,9 +8,7 @@ import background from '../../images/background3.jpg';
 const Separator = () => {
 	return(
 		<div className="separator">
-			<div className="parallax-container">
-					<img className="separatorImage" src={ background } />
-			</div>
+			<img className="responsive-img separatorImage" src={ background } />
 		</div>
 	);
 };
