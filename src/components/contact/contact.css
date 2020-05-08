@@ -1,0 +1,17 @@
+.footer {
+	background-color: #636161;
+	height: 5vh;
+}
+
+.page-footer {
+	width: 100%;
+}
+
+.text {
+	color: #3f3f3f;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#title {
+	color: white;
+}

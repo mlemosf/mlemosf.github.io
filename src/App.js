@@ -4,16 +4,21 @@ import React, { Component } from 'react';
 import Header from './components/header/header';
 import Timeline from './components/timeline/timeline';
 import Separator from './components/separator/separator';
-
+import Contact from './components/contact/contact';
 
 var sections = [
 	{
 		title: 'Sobre',
-		content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+		content: 'Sou Matheus, desenvolvedor de software e entusiasta dos vários\
+		movimentos e tecnologias neste vasto mundo da tecnologia. Já fiz projetos \
+		em Machine Learning, APIs REST e sou fascinado pelas novas tecnologias de \
+		arquitetura em numem, como Docker e Kubernetes. Estou sempre fazendo projetos \
+		dentro e fora de empregos, e falo com tranquilidade que computacão é a paixão \
+		da minha vida.'	
 	},
 	{
 		title: 'Experiência',
-		content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+		content: 'Tenho 2 anos de experiência desenvolvendo software backend'	
 	}
 ]
 
@@ -26,7 +31,7 @@ class App extends Component {
 				<Separator />
 				<Timeline {...sections[1] } />
 				<Separator />
-
+				<Contact />
 			</div>
 
   		);

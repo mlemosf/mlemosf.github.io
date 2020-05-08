@@ -2,13 +2,14 @@
 
 import React from 'react';
 //import { Parallax } from 'react-materialize'
-import background from '../../images/background2.jpg';
+import style from './separator.css';
+import background from '../../images/background3.jpg';
 
 const Separator = () => {
 	return(
 		<div className="separator">
 			<div className="parallax-container">
-					<img src={ background } />
+					<img className="separatorImage" src={ background } />
 			</div>
 		</div>
 	);
